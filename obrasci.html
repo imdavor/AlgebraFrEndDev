@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrasci</title>
+</head>
+
+<body>
+  <form action="" method="">
+    <!--Ovdje sam izostavio metodu POST jer pokušva poslati na klik pa mi "zbrejka stranicu :) "-->
+    <p><label for="">Ime i prezime *:</label><br>
+      <input type="text" name="name" id="" required>
+    </p>
+    <p> <label for="">E-mail adresa *:</label><br>
+      <input type="email" name="email" id="" required>
+    </p>
+    <p> <label for="">Kontakt broj telefona:</label><br>
+      <input type="tel" name="tel" id="" required>
+    </p>
+    <p> <label for="">Datum rođenja:<label><br>
+          <input type="date" name="birthdate" id=""></p>
+    <p><label for="">Koje jezike govorite?:</label><br>
+      Engleski<input type="checkbox" name="jezik" id="">
+      Talijanski<input type="checkbox" name="jezik" id="">
+      Njemački<input type="checkbox" name="jezik" id="">
+      Francuski<input type="checkbox" name="jezik" id="">
+      Španjolski<input type="checkbox" name="jezik" id=""></p>
+    <p> <label for="">Da li ste do sada koristili usluge naše tvrtke?:</label><br>
+      Da<input type="radio" name="dane" id="" value="da">
+      Ne<input type="radio" name="dane" id="" value="ne"></p>
+    <p> <label for="">Priložite životopis:</label><br>
+      <!-- Meni ovaj gumb pokazuje na engleskom jer mi je system default kang na engleskom-->
+      <input type="file" name="fileName" id="files" value="Odaberi datoteku">
+    </p>
+    <p> <input type="reset" value="Poništi">
+      <input type="submit" value="Prijavi se">
+    </p>
+  </form>
+</body>
+
+</html>
