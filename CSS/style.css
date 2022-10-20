@@ -1,0 +1,21 @@
+body {
+    color: darkgray;
+}
+
+h1 {
+    color: darkslateblue;
+}
+
+.main-title {
+    color: firebrick;
+}
+
+a {
+    color: goldenrod !important;
+}
+ul li {
+    list-style: none;
+}
+section article:first-of-type p:first-of-type{
+    color: hotpink;
+}

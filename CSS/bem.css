@@ -1,0 +1,19 @@
+.button {
+    border-radius: 5px;
+    border: solid 1px #333;
+    background-color: transparent;
+    padding: 10px;
+}
+/* definiranje ELEMENATA bloka */
+.button__text {
+    text-transform: uppercase;
+}
+/* MODIFIER - jedan underscore */
+.button_theme_green {
+    color: white;
+    background-color: darkolivegreen;
+}
+.button_theme_red {
+    color: white;
+    background-color: darkred;
+}
