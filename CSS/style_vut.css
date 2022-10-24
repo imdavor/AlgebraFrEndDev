@@ -1,0 +1,20 @@
+h1 {
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    font-family: fasthand;
+    text-decoration: underline wavy;
+}
+h3 {
+    font-family: monospace;
+    text-transform: uppercase;
+}
+h4 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-style: italic;
+    font-variant: small-caps;
+    text-align: end;
+}
