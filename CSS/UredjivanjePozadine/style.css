@@ -1,0 +1,15 @@
+body {
+    color: snow;
+    text-shadow: 2px 2px 2px #111;
+    background: silver url(../images/london.jpg) no-repeat top center/cover
+        fixed;
+}
+p:first-of-type {
+    background: #ffc url(../images/light-bulb.png) no-repeat center/contain;
+}
+p:nth-of-type(even) {
+    background: url(../images/orange.png) right top/150px no-repeat,
+        url(../images/butterfly.png) left/contain no-repeat,
+        url(../images/coffee-cup.png) center/contain no-repeat,
+        #cff url(../images/pattern.png);
+}

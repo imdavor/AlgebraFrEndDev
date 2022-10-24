@@ -1,0 +1,19 @@
+body {
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section p {
+    color: steelblue;
+}
+footer section p {
+    font-family: "Courier New", Courier, monospace;
+}
+section > p {
+    text-decoration: line-through solid red;
+}
+section h1 + p {
+    font-weight: 700;
+}
+p:first-child {
+    text-decoration: underline wavy violet;
+}

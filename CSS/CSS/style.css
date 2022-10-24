@@ -16,6 +16,6 @@ a {
 ul li {
     list-style: none;
 }
-section article:first-of-type p:first-of-type{
+section article:first-of-type p:first-of-type {
     color: hotpink;
 }
