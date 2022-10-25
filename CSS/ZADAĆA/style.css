@@ -1,0 +1,18 @@
+body{
+    background: 
+    url(../images/pattern.png) top center,
+    url(../images/fire.png) no-repeat center/250px fixed,
+    url(../images/blossom.jpg) no-repeat top center/cover fixed
+}
+header{
+    background-color: #333;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    text-align: center;
+}   
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
