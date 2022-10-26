@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.box-auto-height {
+    background-color: burlywood;
+    width: 300px;
+    padding: 10px; /*box je 320px-  300 je kontent*/
+    /* box-sizing: border-box; a sad je 300px */
+    margin: 10px;
+}
+.box-fixed-height {
+    /* color: white; */
+    background-color: blueviolet;
+    /* box-sizing: border-box;  ovo grupiramo gore da ne ponavljamo */
+    padding: 10px;
+    /* height: 100px; ovdje imamo izlje sadržaja izvan boxa */
+    margin: 10px;
+}
+.float-left {
+    background-color: orange;
+    float: left;
+    width: 50%;
+}
+.clearfix {
+    display: table;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+}

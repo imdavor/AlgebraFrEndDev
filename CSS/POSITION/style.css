@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+div {
+    padding: 10px;
+}
+div > div {
+    width: 200px;
+    height: 200px;
+}
+
+.box-blue {
+    background-color: blue;
+}
+.box-orange {
+    background-color: gold;
+}
+.margin-center {
+    margin: 0 auto;
+}
+.margin-right {
+    margin-right: 0;
+    margin-left: auto;
+}
+.transform-1 {
+    left: 200px;
+    top: -200px;
+}
+.transform-2 {
+    right: 0px;
+    bottom: 0px;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.fixed {
+    position: fixed;
+}
+.sticky {
+    position: sticky;
+}
