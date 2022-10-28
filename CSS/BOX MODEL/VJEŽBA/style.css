@@ -5,14 +5,14 @@
     margin: auto;
 }
 div > div {
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
 }
 .child1 {
     background-color: brown;
 }
 .child2 {
-    margin-left: 200px;
+    margin-left: auto;
     bottom: 0;
     background-color: cornflowerblue;
 }

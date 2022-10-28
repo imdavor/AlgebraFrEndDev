@@ -1,0 +1,56 @@
+/* RESET */
+*,
+::after,
+::before {
+    /* da se padding i margin ne računaju u size */
+    box-sizing: border-box;
+}
+
+/* MAIN */
+body {
+    color: rgb(248, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+    margin: 15px 0;
+}
+.wrapper {
+    border: dashed 1px #666;
+    padding: 15px;
+}
+.flex-container {
+    display: flex;
+}
+/*  pošto su divovi u flex elementu */
+.flex-container > div {
+    background-color: rgb(74, 117, 209);
+    border: solid 1px #666;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.row-revese {
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+.h-400 {
+    height: 400px;
+}
+.align-items-top {
+    align-items: flex-start;
+}
+.align-content-between {
+    align-content: space-between;
+}
+.flex-container > div:nth-of-type(even) {
+    align-self: flex-end;
+}
+.flex-container > div {
+    flex-grow: 1;
+}
+.flex-container > div:nth-of-type(3) {
+    flex-grow: 5;
+}
