@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #333;
+}
+.nav {
+  text-align: center;
+  display: block;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.nav li {
+  display: inline-block;
+  margin-right: 5px;
+}
+.nav li a {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  background-color: #5d1919;
+}
