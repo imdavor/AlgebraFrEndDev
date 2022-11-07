@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div {
+    width: 100%;
+    padding: 15px;
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .container > div {
+        width: 50%;
+    }
+}
+/* DESKTOP */
+@media screen and (min-width: 1025px) {
+    .container > div {
+        width: 25%;
+    }
+}
