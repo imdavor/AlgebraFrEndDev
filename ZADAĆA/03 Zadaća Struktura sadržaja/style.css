@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    color: #444;
+}
+
+body {
+    margin: 0;
+}
+/*  helper "moja" klasa */
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+.bg-gray {
+    background-color: #333;
+}
+.bg-dark-red {
+    background-color: darkred;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+header,
+footer {
+    color: #fff;
+    padding: 15px 0;
+}
+header {
+    text-align: center;
+}
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    display: inline-block;
+}
+/* nav > ul > li a */
+header a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: darkred;
+    padding: 10px 50px;
+}
+main.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-container > div {
+    width: 33.3%;
+}
+.flex-container > div > article {
+    padding: 0 15px;
+    margin: 0 15px;
+}
+footer .flex-container > div {
+    width: 47%;
+}
