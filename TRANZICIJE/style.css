@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+body > div {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.gold-box {
+    color: aliceblue;
+    background-color: darkmagenta;
+    border: solid 1px #111;
+    width: 300px;
+    height: 150px;
+    margin: 2em auto;
+}
+
+.gold-box:first-of-type {
+    transition: width 2s, background-color 1s ease-in-out 1s;
+}
+
+.gold-box:first-of-type:hover {
+    width: 400px;
+    background-color: rgb(42, 165, 52);
+}
+
+.nav-box {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.nav-box:hover {
+    color: rgb(252, 5, 5);
+}
+
+.red-line {
+    background-color: darkred;
+    height: 4px;
+    width: 0%;
+    margin-left: auto;
+    transition: width 1s;
+}
+
+.nav-box:hover .red-line {
+    width: 100%;
+}
