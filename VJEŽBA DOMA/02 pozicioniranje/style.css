@@ -1,0 +1,20 @@
+.parent {
+  background-color: lightskyblue;
+}
+
+.child-one {
+  background-color: greenyellow;
+}
+
+.child-two {
+  background-color: tomato;
+}
+
+.child-three {
+  background-color: #ff89ea;
+}
+
+.child,
+.parent {
+  padding: 5px;
+}
