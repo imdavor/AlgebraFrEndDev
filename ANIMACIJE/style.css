@@ -1,0 +1,52 @@
+:root {
+    --circle-radius: 75px;
+    --circle-border-width: 4px;
+    --circle-border-color: #333;
+    --circle-bg-color: orange;
+}
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+div {
+    width: calc(var(--circle-radius) * 2);
+    height: calc(var(--circle-radius) * 2);
+    background-color: var(--circle-bg-color);
+    border: solid var(--circle-border-width) var(--circle-border-color);
+    border-radius: 50%;
+    margin: 2em 0;
+    margin-bottom: 2em;
+    font-size: 3rem;
+    text-align: center;
+    line-height: calc(
+        (var(--circle-radius) * 2) - (var(--circle-border-width) * 2)
+    );
+    position: relative;
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 600px;
+        background-color: fuchsia;
+    }
+}
+
+div:nth-of-type(1) {
+    animation: moveRight 4s ease-in 2s;
+}
+
+div:nth-of-type(2) {
+    animation: moveRight 4s ease-in 2s infinite;
+}
+div:nth-of-type(3) {
+    animation: moveRight 4s ease-in 2s infinite alternate-reverse forwards;
+}
+div:nth-of-type(3):hover {
+    animation-play-state: paused;
+}

@@ -1,0 +1,40 @@
+:root {
+    --main-bg-color: #999
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--main-bg-color);
+}
+
+.container>div {
+    width: 25%;
+    padding: 15px;
+}
+
+/* DESKTOP */
+@media screen and (max-width: 1025px) {
+    .container>div {
+        width: 25%;
+    }
+}
+
+/* TABLET */
+@media screen and (max-width: 768px) {
+    .container>div {
+        width: 100%;
+    }
+}
