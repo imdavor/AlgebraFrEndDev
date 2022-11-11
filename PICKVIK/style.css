@@ -1,0 +1,26 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    background-color: blue;
+    height: 50px;
+}
+.container {
+    background-color: aquamarine;
+    width: 100%;
+    /* height: 50px; */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo {
+}
+.nav {
+}
