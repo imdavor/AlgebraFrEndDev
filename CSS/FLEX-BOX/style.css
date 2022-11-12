@@ -21,6 +21,9 @@ hr {
 .flex-container {
     display: flex;
 }
+.flex-wrap {
+    flex-wrap: wrap;
+}
 /*  pošto su divovi u flex elementu */
 .flex-container > div {
     background-color: rgb(74, 117, 209);
@@ -28,9 +31,6 @@ hr {
     padding: 15px;
     margin: 15px;
     text-align: center;
-}
-.flex-wrap {
-    flex-wrap: wrap;
 }
 .row-revese {
     flex-direction: row-reverse;
