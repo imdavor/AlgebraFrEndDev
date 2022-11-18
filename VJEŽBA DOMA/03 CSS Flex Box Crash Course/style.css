@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+}
+.container {
+  background-color: #cacaca;
+  padding: 10px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+}
+.item {
+  background-color: #ff0037;
+  font-size: 35px;
+  padding: 20px;
+  margin: 10px;
+}
