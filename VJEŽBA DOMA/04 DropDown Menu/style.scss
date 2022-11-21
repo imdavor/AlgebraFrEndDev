@@ -14,19 +14,18 @@ body {
     position: fixed;
     width: 100%;
     box-shadow: 0 0 10px gray;
+    min-width: 1200;
 
     &__list {
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
         gap: 2rem;
-        margin: 0 2rem;
-
-        &logo {
-            list-style: none;
-            margin-right: auto;
-            // cursor: pointer;
+        margin: 0 2rem;  
         }
-
+&__logo {
+    list-style: none;
+    // margin-right: auto; 
+    // cursor: pointer;
     }
 }

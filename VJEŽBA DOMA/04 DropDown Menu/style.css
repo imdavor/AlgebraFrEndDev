@@ -14,15 +14,15 @@ body {
   position: fixed;
   width: 100%;
   box-shadow: 0 0 10px gray;
+  min-width: 1200;
 }
 .nav__list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 2rem;
   margin: 0 2rem;
 }
-.nav__listlogo {
+.nav__logo {
   list-style: none;
-  margin-right: auto;
 }/*# sourceMappingURL=style.css.map */

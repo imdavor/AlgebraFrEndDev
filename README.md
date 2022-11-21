@@ -7,3 +7,5 @@ Repozitorij za potrebe Algebrinog tečaja za Front End Developera
    width:100%
 2. flex-box se fokusira na 2 stvari
    a. container koji drži sve elemente(items)
+
+# Može biti na završnom ispitu
