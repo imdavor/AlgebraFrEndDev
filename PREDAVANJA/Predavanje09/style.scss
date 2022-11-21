@@ -1,0 +1,65 @@
+// Varijable
+$font-serif: Georgia, serif;
+$font-sans-serif: Trebuchet, sans-serif;
+$dark-gray: #222;
+$light-gray: #ccc;
+$red: red;
+
+// Placeholder selektori
+%light-theme{
+    background-color: $light-gray;
+    color: $dark-gray;
+}
+
+%dark-theme{
+    background-color: $dark-gray;
+    color: $light-gray;
+}
+
+%light-link{
+    color: lighten($color: $red, $amount: 40%);
+
+    &:hover{
+        color: lighten($color: $red, $amount: 20%);
+    }
+}
+
+%dark-link{
+    color: darken($color: $red, $amount: 40%);
+
+    &:hover{
+        color: darken($color: $red, $amount: 20%);
+    }
+}
+
+// Mixins
+@mixin select-theme($theme) {
+    @if ($theme == 'light') {
+        @include light-theme();
+    } @else if ($theme == 'dark'){
+        @include dark-theme();
+    } @else{
+        @error ("Nisi odabrao ispravnu temu!");
+    }
+}
+
+@mixin light-theme() {
+    @extend %light-theme;
+
+    a{
+        @extend %dark-link;
+    }
+}
+
+@mixin dark-theme() {
+    @extend %dark-theme;
+
+    a{
+        @extend %light-link;
+    }
+}
+
+
+body{
+    @include select-theme("light");
+}

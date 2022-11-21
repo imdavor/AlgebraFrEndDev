@@ -1,0 +1,28 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  box-shadow: 0 0 10px gray;
+}
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  margin: 0 2rem;
+}
+.nav__listlogo {
+  list-style: none;
+  margin-right: auto;
+}/*# sourceMappingURL=style.css.map */
