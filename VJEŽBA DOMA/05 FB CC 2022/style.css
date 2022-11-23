@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+}
+.container{
+    display: flex;
+    border: 6px solid #000;
+}
+.flex-item{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+.item-1{
+background: #b4b35f;
+}
+.item-2{
+background: #b95f21;
+}
+.item-3{
+background: #1c4c56;
+}
+.item-4{
+background: #cfb267;
+}
+.item-5{
+background: #6b0803;
+}
+.item-6{
+background: #1c4c56;
+}
+.item-7{
+background: #b95f21;
+}
+.item-8{
+background: #01243a;
+}
+.item-9{
+background: #aad041;
+}
