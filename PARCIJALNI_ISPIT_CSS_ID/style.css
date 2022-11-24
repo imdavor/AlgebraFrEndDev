@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -8,39 +10,30 @@ body {
 
 .container {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: space-around;
   align-items: center;
 }
 
-.box1 {
-  width: 100px;
-  height: 100px;
+.box {
+  width: 200px;
+  height: 200px;
   color: white;
-  background-color: darkslategrey;
   border: 2px solid white;
-  line-height: 100px;
   text-align: center;
-  margin: 0 auto;
+  font-size: 70px;
+  line-height: 200px;
+}
+
+.box1 {
+  background-color: darkslategrey;
 }
 
 .box2 {
-  width: 100px;
-  height: 100px;
-  color: white;
   background-color: rgba(178, 34, 34, 0.486);
-  border: 2px solid white;
-  line-height: 100px;
-  text-align: center;
-  margin: 0 auto;
 }
 
 .box3 {
-  width: 100px;
-  height: 100px;
-  color: white;
   background-color: rgba(255, 166, 0, 0.541);
-  border: 2px solid white;
-  line-height: 100px;
-  text-align: center;
-  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

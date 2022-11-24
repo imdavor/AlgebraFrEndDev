@@ -3,14 +3,17 @@
 ::before {
     box-sizing: border-box;
 }
+
 body {
     margin: 0;
     padding: 0;
     font-family: "Segoe UI", sans-serif;
 }
+
 a {
     text-decoration: none;
 }
+
 header {
     height: 100px;
     display: flex;
@@ -18,15 +21,18 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .container {
     padding: 0 0.5em;
     margin: 0 54px;
 }
+
 .nav__links {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .nav__links li {
     margin: 0 16px;
     list-style-type: none;
@@ -34,22 +40,26 @@ header {
     padding: 0.5em;
     list-style-type: none;
 }
+
 .nav__links a {
     color: #333;
     font-weight: 600;
 }
+
 .nav__links a:hover {
     color: brown;
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-.dropdown ul > li {
+.dropdown ul>li {
     visibility: hidden;
 }
-.dropdown > ul > li {
+
+.dropdown>ul>li {
     visibility: hidden;
     position: absolute;
     background-color: rgb(255, 255, 255);
@@ -57,7 +67,7 @@ header {
     z-index: -1;
 }
 
-.dropdown > ul > a:hover {
+.dropdown>ul>a:hover {
     visibility: visible;
     background-color: rgb(173, 10, 10);
     display: block;
@@ -66,6 +76,7 @@ header {
 .social a {
     margin: 0 5px;
 }
+
 .search {
-    margin: 0 25px;
+    margin-left: 10px;
 }
