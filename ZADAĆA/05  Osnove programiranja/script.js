@@ -24,11 +24,11 @@ if (z === 2) {
 
 switch (z) {
     case (2):
-        x = y;
+        // x = y;
         console.log("Switch: " + x);
         break;
     default:
-        x = 5;
+        // x = 5;
         console.log("Switch: " + x)
         break;
 }
