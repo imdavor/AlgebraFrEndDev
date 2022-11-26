@@ -1,6 +1,7 @@
 # AlgebraFDEV - Front End Developer, HTML, CSS, JS, ReactJS
 
 Repozitorij za potrebe Algebrinog tečaja za Front End Developera
+Prebačen na G:disk
 
 1. elementi u htmlu su po defultu:
    display: block;
