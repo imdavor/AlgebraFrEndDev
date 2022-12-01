@@ -16,9 +16,11 @@ var x = z === 2 ? y : 5;
 console.log("First x je = " + x)
 
 if (z === 2) {
-    console.log("If: Y.");
+    x = y;
+    console.log("If: ", x);
 } else {
-    console.log("If: 5.");
+    x = 5;
+    console.log("If: ", x);
 
 }
 
