@@ -21,8 +21,11 @@ body {
 
 .header {
     height: 95vh;
-    background-image: linear-gradient(to right bottom,
-            rgba(126, 213, 111, 0.8), #28b485),
+    background-image: linear-gradient(
+            to right bottom,
+            rgba(126, 213, 111, 0.8),
+            #28b485
+        ),
         url(../img/hero.jpg);
     background-size: cover;
     background-position: top;
@@ -83,7 +86,6 @@ body {
     100% {
         opacity: 1;
         transform: translateX(0);
-
     }
 }
 
@@ -96,10 +98,7 @@ body {
     border-radius: 100px;
     transition: all 0.2s;
     position: relative;
-
 }
-
-
 
 .btn:hover {
     transform: translateY(-3px);
@@ -117,7 +116,7 @@ body {
 }
 
 .btn::after {
-    content: '';
+    content: "";
     display: block;
     height: 100%;
     width: 100%;
@@ -137,7 +136,6 @@ body {
     transform: scalex(1.4) scaleY(1.6);
     opacity: 0;
 }
-
 
 @keyframes moveInBottom {
     0% {
