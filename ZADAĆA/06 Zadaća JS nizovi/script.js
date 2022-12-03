@@ -12,9 +12,11 @@ console.log("Ispis niza sa mojim imenom: " + names)
 
 console.log("")
 
-console.log("Našao sam Jane!")
 for (i = 0; i < names.length; i++) {
+
     if (names[i] == "Jane") {
+
+        console.log("Našao sam Jane!")
         console.log(names[i])
         break;
     } else {
