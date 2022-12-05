@@ -10,3 +10,11 @@ Prebačen na G:disk
    a. container koji drži sve elemente(items)
 
 # Može biti na završnom ispitu
+
+funkcije
+kako rade parametri
+
+objekti
+literali{}, ime i vrijednosti, funkc, nizovi
+
+mijenjanje propertia - writable+2
