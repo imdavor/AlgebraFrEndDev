@@ -26,11 +26,11 @@ ul.append(copyUser);
 var listElements = ul.querySelectorAll("li");
 console.log(listElements);
 
-//sve iz node liste
-listElements.forEach(function (value) {
-    // console.log(value.dataset.userId);
-    // console.log(value.innerText.includes("Mir")); //nađi innerText koji sadrži "Mir"
-    if (value.innerText.includes("Mir")) {
-        value.remove();
-    }
-});
+// //sve iz node liste
+// listElements.forEach(function (value) {
+//     // console.log(value.dataset.userId);
+//     // console.log(value.innerText.includes("Mir")); //nađi innerText koji sadrži "Mir"
+//     if (value.innerText.includes("Mir")) {
+//         value.remove();
+//     }
+// });
