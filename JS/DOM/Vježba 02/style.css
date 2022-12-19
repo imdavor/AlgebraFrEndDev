@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+.cube {
+    width: 40px;
+    height: 40px;
+    background-color: cadetblue;
+    margin-left: 10px;
+}
