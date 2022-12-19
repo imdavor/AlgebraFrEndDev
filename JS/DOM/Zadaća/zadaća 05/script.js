@@ -29,15 +29,26 @@ old_element.replaceWith(new_element);
 var divInfo = document.querySelector('.info');
 divInfo.innerHTML = 'Peta rijeka je piva.';
 
-// var footer = document.querySelector("#footer");
-var ul = document.querySelector("ul");
-// var li = document.querySelector("li");
-var cities = ['Korana', 'Kupa', 'Mrežnica', 'Dobra', 'Žuja'];
-for (i = 0; i < cities.length; i++) {
-    var liEmpty = document.querySelector("li");
-    var li = document.createElement('li')
-    var city = li.textContent = cities[i];
-    // console.log(city)
-    ul.append(li);
 
+
+var rivers = ['Korana', 'Kupa', 'Mrežnica', 'Dobra', 'Žuja'];
+// var footer = document.querySelector("#footer");
+// var ul = document.querySelector("ul");
+var li = document.getElementsByTagName("li");
+
+for (var i = 0; i <= li.length; i++) {
+    var liEmpty = li[i];
+    // console.log(liEmpty);
+    for (var j = 0; j < rivers.length; j++) {
+        if (i == j) {
+            liEmpty.innerText = rivers[j]
+        }
+    }
 }
+
+// for (i = 0; i < rivers.length; i++) {
+//     var li = document.createElement('li')
+//     var city = li.textContent = rivers[i];
+//     // console.log(city)
+//     ul.appendChild(li);
+// }
