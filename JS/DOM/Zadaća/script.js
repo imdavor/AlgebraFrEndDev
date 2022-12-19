@@ -9,9 +9,11 @@ var target = document.querySelector('.description');
 
 var h1 = document.createElement('h1');
 var divInfo = document.createElement('div');
+divInfo.className = "info";
+
 // test tekst
-divInfo.innerHTML = "Ovo je div INFO";
 h1.innerHTML = "Ovo je h1 element";
+divInfo.innerHTML = "Ovo je div INFO";
 
 document.body.insertBefore(h1, target)
 target.after(divInfo)
