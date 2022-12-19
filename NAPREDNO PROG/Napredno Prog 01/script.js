@@ -67,10 +67,6 @@ function HOF(a) {
 var createHOF = HOF(10);
 console.log(createHOF(true));
 
-// for (var i = 0; i <= 10; i++) {
-//     console.log(i);
-// }
-
 // Closure
 function makeCounter() {
     var privateCounter = 0;
@@ -89,10 +85,24 @@ function makeCounter() {
         },
     };
 }
-var counter1 = makeCounter();
-console.log(counter1);
-counter1.incriment();
+// var counter1 = makeCounter();
+// console.log(counter1);
+// counter1.incriment();
 
-console.log(counter1.getCounter());
-var counter2 = makeCounter();
-console.log(counter2);
+// console.log(counter1.getCounter());
+// var counter2 = makeCounter();
+// console.log(counter2);
+
+(function () {
+    var counter1 = makeCounter();
+    console.log(counter1);
+    counter1.incriment();
+
+    console.log(counter1.getCounter());
+    var counter2 = makeCounter();
+    console.log(counter2);
+})();
+
+// for (var i = 0; i <= 10; i++) {
+//     console.log(i);
+// }
