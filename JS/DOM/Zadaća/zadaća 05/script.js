@@ -29,8 +29,6 @@ old_element.replaceWith(new_element);
 var divInfo = document.querySelector('.info');
 divInfo.innerHTML = 'Peta rijeka je piva.';
 
-
-
 var rivers = ['Korana', 'Kupa', 'Mrežnica', 'Dobra', 'Žuja'];
 // var footer = document.querySelector("#footer");
 // var ul = document.querySelector("ul");
@@ -52,3 +50,7 @@ for (var i = 0; i <= li.length; i++) {
 //     // console.log(city)
 //     ul.appendChild(li);
 // }
+
+
+//3.
+
