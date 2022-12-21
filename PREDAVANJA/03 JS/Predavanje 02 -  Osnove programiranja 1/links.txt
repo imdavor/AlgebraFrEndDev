@@ -1,0 +1,2 @@
+https://www.syncfusion.com/blogs/post/10-javascript-naming-conventions-every-developer-should-know.aspx
+https://www.joshwcomeau.com/javascript/statements-vs-expressions/

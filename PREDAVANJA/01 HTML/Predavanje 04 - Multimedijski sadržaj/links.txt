@@ -1,0 +1,5 @@
+https://www.w3schools.com/html/html_images.asp
+https://www.w3schools.com/html/html5_svg.asp
+https://www.w3schools.com/html/html_media.asp
+https://www.w3schools.com/html/html5_video.asp
+https://www.w3schools.com/html/html5_audio.asp

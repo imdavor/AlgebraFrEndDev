@@ -1,0 +1,5 @@
+https://www.w3.org/WAI/
+https://www.webaccessibility.com/
+https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA
+https://w3c.github.io/html-aria/
+https://html.spec.whatwg.org/
