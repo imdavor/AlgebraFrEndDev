@@ -63,3 +63,57 @@ function classicFunc() {
     return this; // kada je uključen use strict "this" se odnosi samo unutar bracketa
 }
 console.log(classicFunc());
+const arrowFunc = () => this; // ovo radi kada je uključen use strict
+console.log(arrowFunc());
+
+// Promjena konteksta this ključne riječi unutar objekta // BIND
+let runner = {
+    name: "Runner",
+    run: function (speed) {
+        console.log(`${this.name} flies at ${speed} km/h`);
+    },
+};
+let flyer = {
+    name: "Flyer",
+    fly: function (speed) {
+        console.log(`${this.name} flies at ${speed} km/h`);
+    },
+};
+runner.run(29);
+flyer.fly(300);
+
+let runnerFlies = flyer.fly.bind(runner);
+
+runnerFlies(123);
+
+//Klase
+
+class Car {
+    color;
+    constructor(color) {
+        this.color = color;
+    }
+
+    getColor = () => {
+        return console.log(this.color);
+    };
+
+    setEvent() {
+        window.addEventListener("resize", this.getColor);
+    }
+}
+
+let car = new Car("blue");
+// console.log(car);
+car.setEvent();
+
+class Volovo extends Car {
+    model;
+    constructor(color, model) {
+        super(color);
+        this.model = model;
+    }
+}
+
+let volvo = new Volovo("red", "S40");
+console.log(volvo);
