@@ -1,0 +1,13 @@
+@keyframes moveFromTop {
+    0% {
+        top: -500px;
+        transform: translateY(-500px);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+
+    }
+}

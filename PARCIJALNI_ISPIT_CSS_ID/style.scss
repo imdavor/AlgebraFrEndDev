@@ -1,19 +1,10 @@
-@import "base/_colors.scss";
-@import "base/_reset.scss";
-@import "abstracts/mixin";
+@import "abstracts/mixins";
+@import "abstracts/functions";
 
-body {
-    background-image: url(blur-clean.jpg);
-}
+@import "base/base";
+@import "base/reset";
+@import "base/colors";
 
-.box1 {
-    background-color: $color1;
-}
+@import "animations/animations";
 
-.box2 {
-    background-color: $color2;
-}
-
-.box3 {
-    background-color: $color3;
-}
+@import "components/navbar";
