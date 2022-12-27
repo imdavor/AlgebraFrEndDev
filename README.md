@@ -22,3 +22,5 @@ mijenjanje propertia - writable+2
 kaka zaključiti da je tip podatka objekt > var varijabla = {} ; pero.id
 window.pageoYffset
 element scroll top
+
+spread operator ...x
