@@ -2,8 +2,6 @@
 // 2. Kreirajte objekt iz Dog funkcije.
 // 3. Dodajte Dog funkciji metodu koja vraća postavljeno ime psa. Pozovite ju iz novostvorenog objekta i ispisite rezultat.
 
-
-
 function Dog(name) {
     var name = "Rex";
     this.dogName = function () {
