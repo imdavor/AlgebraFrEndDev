@@ -1,0 +1,7 @@
+1. dodavanje taskova na listu
+2. označavanje taska završenim
+3. označavanje taska nezavršenim
+4. brisanje nezavršenih taskova sa liste
+5. uređivanje taskova
+6. sortiranje taskova
+7. pohrana taskova
