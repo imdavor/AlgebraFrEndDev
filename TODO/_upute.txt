@@ -5,4 +5,3 @@
 5. uređivanje taskova
 6. sortiranje taskova
 7. pohrana taskova
-test
