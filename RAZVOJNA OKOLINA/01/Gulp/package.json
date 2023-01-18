@@ -11,5 +11,9 @@
   "dependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^7.1.0",
+    "gulp-newer": "^1.4.0"
   }
 }
