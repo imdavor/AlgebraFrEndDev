@@ -10,7 +10,13 @@ module.exports = {
     },
     mode: 'development',
     devServer: {
-
+        static: {
+            directory: path.join(__dirname, './dist')
+        },
+        compress: true,
+        open: true,
+        hot: false,
+        port: 9002
     },
     module: {
         rules: [{
