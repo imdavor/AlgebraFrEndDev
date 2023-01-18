@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_div__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/div */ \"./modules/div.js\");\n\r\n\r\n\r\nconst div = (0,_modules_div__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://algebra_webpack/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _modules_div__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/div */ \"./modules/div.js\");\n\r\n\r\nconst div = (0,_modules_div__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n\n//# sourceURL=webpack://algebra_webpack/./src/index.js?");
 
 /***/ })
 
