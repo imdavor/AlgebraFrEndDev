@@ -6,6 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #f6d365 #fda085);
+    background-image: linear-gradient(120deg, #dbbe5d, #fda085);
+    /* background-image: linear-gradient(120deg, blue, red); */
     color: white;
 }
