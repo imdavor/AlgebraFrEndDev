@@ -24,3 +24,5 @@ window.pageoYffset
 element scroll top
 
 spread operator ...x
+
+dekonstrukcija objekta
