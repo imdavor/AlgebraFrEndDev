@@ -57,6 +57,7 @@ form button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease;
 }
 .todo li {
     flex: 1; /* gura check-box do trasha */
@@ -76,4 +77,22 @@ form button:hover {
 /* sredimo text unutar liste*/
 .todo-item {
     padding: 0rem 0.5rem;
+}
+
+/*  fix za kada želimo delete-at todo item da ne klikamo
+po <i> tagu*/
+.fa-check,
+.fa-trash {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+/* animacija  */
+.fall {
+    transform: translateY(8rem) rotateZ(200deg);
+    opacity: 0;
 }

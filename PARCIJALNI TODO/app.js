@@ -7,7 +7,7 @@ const todoList = document.querySelector('.todo-list');
 // Event Listeners
 /** 2. kad kliknem dodaj Todo  */
 todoButton.addEventListener('click', addTodo);
-
+todoList.addEventListener('click', deleteCheck);
 
 // Functions
 /** 3. */
@@ -61,4 +61,25 @@ function addTodo(event) {
 
     // ispraznimo Todo Input vrijednost iz polja
     todoInput.value = "";
+}
+
+// DELETE
+function deleteCheck(e) {
+    //console.log(e.target) //da vidim kaj klikam
+    // delete Todo
+    const item = e.target;
+    if (item.classList[0] === "trash-btn") {
+        // item.remove(); ovo briše samo ikonu zato možemo otići odavde na Parent
+        const todo = item.parentElement;
+        // za animaciju dodamo klasu fall prije remove elemnta
+        todo.classList.add("fall"); // problem je kaj remove odma remova element, zato dodajemo funk da čeka na remove dok animacija ne završi
+        todo.addEventListener('transitionEnd', function () {
+            todo.remove();
+        });
+    }
+    // CHECK MARK
+    if (item.classList[0] === "complete-btn") {
+        const todo = item.parentElement;
+        todo.classList.toggle("completed");
+    }
 }
