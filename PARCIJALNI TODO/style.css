@@ -6,37 +6,8 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, #e2c35d, #fda085);
-    color: white;
-    font-family: "Popins", sans-serif;
-    min-height: 100vh;
-}
-header {
-    font-size: 1.5rem;
-}
-header,
-form {
-    min-height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-form input,
-form button {
-    padding: 0.5em;
-    font-size: 2rem;
-    border: none;
-    background: white;
-}
-form button {
-    color: #fda085;
-    background: white;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-form button:hover {
-    background-color: #fda085;
+    background-image: linear-gradient(120deg, #dbbe5d, #fda085);
+    /* background-image: linear-gradient(120deg, blue, red); */
     color: white;
 }
 
