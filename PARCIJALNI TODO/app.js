@@ -73,7 +73,7 @@ function deleteCheck(e) {
         const todo = item.parentElement;
         // za animaciju dodamo klasu fall prije remove elemnta
         todo.classList.add("fall"); // problem je kaj remove odma remova element, zato dodajemo funk da čeka na remove dok animacija ne završi
-        todo.addEventListener('transitionEnd', function () {
+        todo.addEventListener('transitionend', function () {
             todo.remove();
         });
     }

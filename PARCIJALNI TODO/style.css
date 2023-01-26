@@ -96,3 +96,43 @@ po <i> tagu*/
     transform: translateY(8rem) rotateZ(200deg);
     opacity: 0;
 }
+
+/* SELECT dropdown style */
+select {
+    /* prvo removamo sve stilove jer je zajeban za uređivanje */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+    color: #ff6f47;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+/* sad div */
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+/* select {
+    color: #ff6f47;
+    width: 10rem;
+    cursor: pointer;
+} */
+/*  vratimo strelicu */
+.select::after {
+    content: "\25bc";
+    position: absolute;
+    background: #ff6f47;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.select:hover::after {
+    background: white;
+    color: #ff6f47;
+}
