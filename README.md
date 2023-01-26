@@ -17,7 +17,7 @@ kako rade parametri
 objekti
 literali{}, ime i vrijednosti, funkc, nizovi
 
-mijenjanje propertia - writable+2
+mijenjanje property-a - writable+2
 
 kaka zaključiti da je tip podatka objekt > var varijabla = {} ; pero.id
 window.pageoYffset
