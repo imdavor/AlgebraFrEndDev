@@ -28,3 +28,5 @@ spread operator ...x
 dekonstrukcija objekta
 
 Virtual DOM
+
+const root = ReactDOM.createRoot(document.getElementById('root')); stvara virt DOM i povezuje sa rootom
