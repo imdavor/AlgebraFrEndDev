@@ -26,3 +26,5 @@ element scroll top
 spread operator ...x
 
 dekonstrukcija objekta
+
+Virtual DOM
