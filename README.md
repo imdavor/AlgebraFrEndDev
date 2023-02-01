@@ -32,3 +32,5 @@ Virtual DOM
 const root = ReactDOM.createRoot(document.getElementById('root')); stvara virt DOM i povezuje sa rootom
 
 npm install kada skinemo paket
+
+props - life cycle
