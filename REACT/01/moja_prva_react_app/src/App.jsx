@@ -6,5 +6,3 @@ const App=()=> {
   return (
   <div className="uuid">{v4()}</div>);
 }
-
-export default App;
