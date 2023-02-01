@@ -25,6 +25,5 @@ const data = fetch(url)
     .then((Reposnse) = Response.json())
     .then((data) => {
         console.log(data)
-
     })
 
