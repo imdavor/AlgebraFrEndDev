@@ -34,4 +34,5 @@ const root = ReactDOM.createRoot(document.getElementById('root')); stvara virt D
 npm install kada skinemo paket
 
 props - life cycle
+
 test
