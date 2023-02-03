@@ -186,10 +186,11 @@ function removeLocalTodos(todo) {
     // 1.console.log(todo); // dobivamo klasu "todo fall"; todo je DIV
     // 2. console.log(todo.children[0].innerText);
     // [0] hvata <li>; // .inner.Text > hvata text u todo // ovo radimo da uhvatimo index od pobrisanog todo-a
-    // console.log(todos.indexOf("potato"));
+    console.log(todos.indexOf("potato"));
     const todoIndex = todo.children[0].innerText;
+    // console.log(todoIndex);
     todos.splice(todos.indexOf(todoIndex), 1);
-    localStorage.setItem("todos", JSON.stringify(todos));
+    localStorage.setItem('todos', JSON.stringify(todos));
 
     // sada napravimo da izbriše iz arraya/storeage prema kliknutom todo
     // ako sam kliknuo delete, izbriši ga i iz local storage-a
