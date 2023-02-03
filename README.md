@@ -36,7 +36,7 @@ npm install kada skinemo paket
 props - life cycle
 
 <<<<<<< HEAD
-Props - kako komuniciraju (Parent prema childu) 
+Props - kako komuniciraju (Parent prema childu) između komponenata
 =======
 test
 >>>>>>> 8ff62949bde08cbeda270b09c3b300a015ec2c3c
