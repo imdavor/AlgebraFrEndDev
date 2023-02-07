@@ -36,3 +36,5 @@ npm install kada skinemo paket
 props - life cycle
 
 Props - slanje podataka (Parent prema childu) između komponenata - možemo odrediti default propse -
+
+Kako radi STATE
