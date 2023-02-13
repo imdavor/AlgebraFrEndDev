@@ -1,1 +1,10 @@
-.info {}
+body {
+    /* transition: all 0.5s ease-in-out; */
+}
+
+.info {
+    visibility: hidden;
+}
+.gold-box:first-of-type {
+    transition: width 2s, background-color 1s ease-in-out 1s;
+}
