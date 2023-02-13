@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+div{
+    background-color: lightgray;
+    text-align: justify;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+div:first-child{
+    width: 300px;
+    border: solid 2px #333;
+}
+
+div:nth-child(2){
+    margin-right: 0;
+    width: 500px;
+    border: dashed 2px #333;
+    border-right-color: transparent;
+}
+
+div:nth-child(3){
+    width: 400px;
+    margin-left: 0;
+}
+
+div:nth-child(4){
+    width: 80%;
+}
